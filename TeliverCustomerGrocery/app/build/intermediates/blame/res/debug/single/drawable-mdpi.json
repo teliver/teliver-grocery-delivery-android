@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_cotton.png",
+        "source": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/src/main/res/drawable-mdpi/ic_cotton.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_dettol.png",
+        "source": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/src/main/res/drawable-mdpi/ic_dettol.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_dettol.png",
+        "source": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/src/main/res/drawable-mdpi/ic_dettol.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_cotton.png",
+        "source": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/src/main/res/drawable-mdpi/ic_cotton.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_buds.png",
+        "source": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/src/main/res/drawable-mdpi/ic_buds.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_buds.png",
+        "source": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/src/main/res/drawable-mdpi/ic_buds.png"
+    }
+]

@@ -1,0 +1,7 @@
+#Wed Jul 26 16:35:48 IST 2017
+base.0=/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0ebd35cfedaeb6a138e01a6aba99cc637d0db67e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_39c10ab2770e25669af91bbc83be03e45f84046a/classes.dex
+base.1=/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_39c10ab2770e25669af91bbc83be03e45f84046a
+file.0=/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0ebd35cfedaeb6a138e01a6aba99cc637d0db67e/classes.dex

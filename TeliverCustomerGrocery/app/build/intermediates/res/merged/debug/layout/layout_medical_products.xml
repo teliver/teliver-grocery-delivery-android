@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+
+        <com.telivergrocerydriver.CustomTextView
+            android:id="@+id/txtProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/imgProduct"
+            android:layout_toRightOf="@id/imgProduct"
+            android:text="name"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp"
+            app:font_name="@string/font_regular" />
+
+
+        <com.telivergrocerydriver.CustomTextView
+            android:id="@+id/txtApproxPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtProduct"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/imgProduct"
+            android:layout_toRightOf="@id/imgProduct"
+            android:text="125.00"
+            app:font_name="@string/font_lt" />
+
+        <com.telivergrocerydriver.CustomTextView
+            android:id="@+id/txtFinalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtProduct"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/txtApproxPrice"
+            android:layout_toRightOf="@id/txtApproxPrice"
+            android:text="125.00"
+            android:textColor="@color/colorGreen"
+            app:font_name="@string/font_regular" />
+
+
+        <com.telivergrocerydriver.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtApproxPrice"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/imgProduct"
+            android:layout_toRightOf="@id/imgProduct"
+            android:text="Save upto 10%"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+            app:font_name="@string/font_lt" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorHint" />
+
+</LinearLayout>
