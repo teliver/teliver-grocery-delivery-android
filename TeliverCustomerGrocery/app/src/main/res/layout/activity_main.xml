@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/txtYourOrder"
+        app:titleTextColor="@color/colorWhite">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolBar">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <com.telivergrocerydriver.CustomTextView
+        android:id="@+id/txtPaymentStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerView"
+        android:padding="10dp"
+        android:text="@string/txtTotalAmt"
+        android:textColor="@color/colorBlack"
+        app:font_name="@string/font_regular" />
+
+    <com.telivergrocerydriver.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/recyclerView"
+        android:padding="10dp"
+        android:text="@string/txtAmount"
+        android:textColor="@color/colorGreen"
+        app:font_name="@string/font_regular" />
+
+
+    <com.telivergrocerydriver.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPaymentStatus"
+        android:padding="10dp"
+        android:text="@string/txtPaymentStatus"
+        android:textColor="@color/colorBlack"
+        app:font_name="@string/font_regular" />
+
+    <com.telivergrocerydriver.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtPaymentStatus"
+        android:padding="10dp"
+        android:text="@string/txtPayment"
+        android:textColor="@color/colorGreen"
+        app:font_name="@string/font_regular" />
+
+
+    <Button
+        android:id="@+id/btnTrackOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorHint"
+        android:text="@string/txtTrackOrder"
+        android:enabled="false"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:title="Delivery Details"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorWhite">
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.telivergrocerycustomer.CustomTextView
+        style="@style/TxtViewOrder"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtName"
+        android:textSize="12sp" />
+
+    <com.telivergrocerycustomer.CustomTextView
+        style="@style/TxtViewOrder"
+        android:text="@string/name"
+        android:textColor="@color/colorBlack" />
+
+    <View style="@style/ViewLineOrder" />
+
+
+<com.telivergrocerycustomer.CustomTextView
+        style="@style/TxtViewOrder"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtMobile"
+        android:textSize="12sp" />
+
+    <com.telivergrocerycustomer.CustomTextView
+        style="@style/TxtViewOrder"
+        android:text="@string/mobile"
+        android:textColor="@color/colorBlack" />
+
+    <View style="@style/ViewLineOrder" />
+
+
+    <com.telivergrocerycustomer.CustomTextView
+        style="@style/TxtViewOrder"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtDeliveryLocation"
+        android:textSize="12sp" />
+
+    <com.telivergrocerycustomer.CustomTextView
+        style="@style/TxtViewOrder"
+        android:text="@string/txtPlace"
+        android:textColor="@color/colorBlack" />
+
+    <View style="@style/ViewLineOrder" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="@string/txtOutDelivery"
+            android:textColor="@color/colorWhite"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

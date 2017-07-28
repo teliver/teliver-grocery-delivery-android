@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TeliverGroceryDriver</string>
+
+
+    <string name="txtName">Name</string>
+    <string name="name">Selvakumar.P</string>
+    <string name="txtMobile">Mobile number</string>
+    <string name="mobile">9488585651</string>
+    <string name="txtDeliveryLocation">Delivery Location</string>
+    <string name="txtPlace">No:9, 2nd floor Venkateshwara Nagar, Adyar, Chennai-600020</string>
+    <string name="txtOutDelivery">Start Trip</string>
+    <string name="txtInDelivery">Stop Trip</string>
+
+</resources>
