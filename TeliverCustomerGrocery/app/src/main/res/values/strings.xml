@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TeliverGroceryCustomer</string>
+
+
+    <string name="font_bold">fonts/roboto_bold.ttf</string>
+    <string name="font_regular">fonts/font_rg.ttf</string>
+    <string name="font_lt">fonts/roboto_light.ttf</string>
+    <string name="font_medium">fonts/roboto_medium.ttf</string>
+
+
+    <string name="txtTrackOrder">Track your Order</string>
+    <string name="txtPaymentStatus">Payment Status</string>
+    <string name="txtPayment">SUCCESSFULLY TRANSACTED</string>
+    <string name="txtTotalAmt">Total Amount</string>
+    <string name="txtAmount">₹ 260</string>
+    <string name="txtYourOrder">Cart Items</string>
+
+
+</resources>
