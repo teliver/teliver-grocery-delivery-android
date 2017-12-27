@@ -8,7 +8,6 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -22,9 +21,9 @@ import com.teliver.sdk.models.UserBuilder;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String username = "grocery_driver",customerName = "grocery_customer";
+    private String username = "driver_1", customerName = "user_1";
 
-    private String trackingId = "TELIVERTRK_6600";
+    private String trackingId = "TELIVERTRK_200";
 
     private Application application;
 
@@ -53,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Drawable drawable = toolBar.getNavigationIcon();
-        drawable.setColorFilter(ContextCompat.getColor(this,R.color.colorWhite), PorterDuff.Mode.SRC_ATOP);
+        drawable.setColorFilter(ContextCompat.getColor(this, R.color.colorWhite), PorterDuff.Mode.SRC_ATOP);
 
         application = (Application) getApplicationContext();
         btnDelivery = (Button) findViewById(R.id.btnDelivery);
@@ -71,35 +70,30 @@ public class MainActivity extends AppCompatActivity {
                         public void onTripStarted(Trip tripDetails) {
                             application.storeBoolenInPref("IN_CURRENT_TRIP", true);
                             btnDelivery.setText(getString(R.string.txtInDelivery));
-                            Log.d("TELIVER::", "onTripStarted: " + tripDetails.getTrackingId());
                         }
 
                         @Override
                         public void onLocationUpdate(Location location) {
-                            Log.d("TELIVER::", "onLocationUpdate: LOCAION VALUES OF DRIVER == " + location.getLatitude()
-                                    + location.getLongitude());
+
                         }
 
                         @Override
                         public void onTripEnded(String trackingID) {
-                            Log.d("TELIVER::", "onTripEnded: " + trackingID);
                             btnDelivery.setText(getString(R.string.txtOutDelivery));
                             application.storeBoolenInPref("IN_CURRENT_TRIP", false);
                             application.deletePreference();
-
                         }
 
                         @Override
                         public void onTripError(String reason) {
-                            Log.d("TELIVER::", "onTripError the trip error: " + reason);
+
                         }
                     });
                 } else {
                     PushData pushData = new PushData(customerName);
                     pushData.setMessage("your order is successfully delivered");
                     pushData.setPayload("0");
-                    Teliver.sendEventPush(trackingId,pushData,"Order Delivered");
-                    Log.d("TELIVER::", "onClick: " + "THIS IS CALLING STOP TRIP");
+                    Teliver.sendEventPush(trackingId, pushData, "Order Delivered");
                     Teliver.stopTrip(trackingId);
                 }
             }

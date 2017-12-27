@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
+    <dimen name="map_header_margin_top">24dp</dimen>
     <dimen name="notification_content_margin_start">0dp</dimen>
     <dimen name="notification_main_column_padding_top">0dp</dimen>
     <dimen name="notification_media_narrow_margin">12dp</dimen>
-    <style name="AppTheme" parent="CustomTheme"/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
@@ -262,6 +262,11 @@
         <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
     </style>
+    <style name="TeliverTranslucentTheme" parent="TeliverTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
     <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.Material.Notification"/>
     <style name="TextAppearance.AppCompat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/>
     <style name="TextAppearance.AppCompat.Notification.Info.Media">
@@ -277,11 +282,6 @@
     <style name="TextAppearance.AppCompat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/>
     <style name="TextAppearance.AppCompat.Notification.Title.Media">
         <item name="android:textColor">@color/primary_text_default_material_dark</item>
-    </style>
-    <style name="TranslucentTheme" parent="CustomTheme">
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
     </style>
     <style name="Widget.AppCompat.NotificationActionContainer" parent="">
         <item name="android:background">@drawable/notification_action_background</item>

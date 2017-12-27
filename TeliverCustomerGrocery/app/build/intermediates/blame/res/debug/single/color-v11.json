@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/selva/.android/build-cache/ae00de4774bd13f97162681c92954fd407308165/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/selva/.android/build-cache/ae00de4774bd13f97162681c92954fd407308165/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

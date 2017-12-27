@@ -4,6 +4,10 @@
         "source": "/home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/selva/.android/build-cache/61594e4cc6f34a75970cfa08e900506688ec4e65/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
         "source": "/home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/selva/.android/build-cache/61594e4cc6f34a75970cfa08e900506688ec4e65/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]

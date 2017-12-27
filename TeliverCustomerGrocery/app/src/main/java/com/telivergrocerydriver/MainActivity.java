@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<Model> listProducts;
 
-    private String userName = "grocery_customer";
+    private String userName = "user_1";
 
     private Application application;
 
     private Button btnTrackOrder;
 
-    private String trackingId = "TELIVERTRK_567";
+    private String trackingId = "TELIVERTRK_200";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,12 +85,12 @@ public class MainActivity extends AppCompatActivity {
                 Teliver.startTracking(new TrackingBuilder(new MarkerOption(trackingId)).withListener(new TrackingListener() {
                     @Override
                     public void onTrackingStarted(String trackingId) {
-                        Log.d("TELIVER::", "onTrackingStarted: " + trackingId);
+
                     }
 
                     @Override
                     public void onLocationUpdate(String trackingId, TLocation location) {
-                        Log.d("TELIVER::", "onLocationUpdate: " + location.getLatitude() + location.getLongitude());
+
                     }
 
                     @Override
@@ -103,7 +103,6 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onTrackingError(String reason) {
-                        Log.d("TELIVER::", "onTrackingError: " + reason);
 
                     }
                 }).build());

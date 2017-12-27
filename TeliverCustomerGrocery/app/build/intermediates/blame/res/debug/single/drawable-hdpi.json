@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_notification_icon.png",
+        "source": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/src/main/res/drawable-hdpi/ic_notification_icon.png"
+    },
+    {
         "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dettol.png",
         "source": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/src/main/res/drawable-hdpi/ic_dettol.png"
     },
@@ -10,6 +14,14 @@
     {
         "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cotton.png",
         "source": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/src/main/res/drawable-hdpi/ic_cotton.png"
+    },
+    {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_buds.png",
+        "source": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/src/main/res/drawable-hdpi/ic_buds.png"
+    },
+    {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cotton.png",
+        "source": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/src/main/res/drawable-hdpi/ic_cotton.png"
     },
     {
         "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_notification_icon.png",
@@ -26,6 +38,10 @@
     {
         "merged": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_notification_icon.png",
         "source": "/home/selva/Documents/android-projects/TeliverCustomerGrocery/app/src/main/res/drawable-hdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dettol.png",
+        "source": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverCustomerGrocery/app/src/main/res/drawable-hdpi/ic_dettol.png"
     },
     {
         "merged": "/home/selva/Documents/android-projects/TeliverGroceryDriver/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dettol.png",

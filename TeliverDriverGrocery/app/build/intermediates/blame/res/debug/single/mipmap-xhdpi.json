@@ -4,7 +4,15 @@
         "source": "/home/selva/Documents/android-projects/TeliverDriverGrocery/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverDriverGrocery/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverDriverGrocery/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/selva/Documents/android-projects/TeliverDriverGrocery/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/selva/Documents/android-projects/TeliverDriverGrocery/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverDriverGrocery/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/selva/Downloads/teliver-grocery-delivery-android/TeliverDriverGrocery/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]
